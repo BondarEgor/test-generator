@@ -1,6 +1,6 @@
 {
   "name": "@eyorg/test-generator",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "types": "build/index.d.ts",
   "main": "build/index.js",
   "type": "module",
