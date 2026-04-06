@@ -9,7 +9,7 @@
     "url": "https://github.com/BondarEgor/test-generator/issues"
   },
   "files": [
-    "build",
+    "bin",
     "README.md"
   ],
   "bin": {
