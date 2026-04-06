@@ -14,8 +14,6 @@
     "strict": true,
     "skipLibCheck": true,
     "allowJs": true,
-    "checkJs": false,
-    "declaration": true,
-    "emitDeclarationOnly": true
+    "declaration": true
   }
 }
