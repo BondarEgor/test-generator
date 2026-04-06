@@ -12,6 +12,9 @@
     "build",
     "README.md"
   ],
+  "bin": {
+    "generate": "bin/generate.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/BondarEgor/test-generator.git"
@@ -20,8 +23,5 @@
     "build": "npx tsc"
   },
   "license": "ISC",
-  "author": "e.bondar",
-  "devDependencies": {
-    "typescript": "^6.0.2"
-  }
+  "author": "e.bondar"
 }
