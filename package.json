@@ -1,17 +1,27 @@
 {
   "name": "@eyorg/test-generator",
   "version": "1.0.1",
-  "description": "",
+  "types": "build/index.d.ts",
+  "main": "build/index.js",
+  "type": "module",
   "homepage": "https://github.com/BondarEgor/test-generator#readme",
   "bugs": {
     "url": "https://github.com/BondarEgor/test-generator/issues"
   },
+  "files": [
+    "build",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/BondarEgor/test-generator.git"
   },
+  "scripts": {
+    "build": "npx tsc"
+  },
   "license": "ISC",
   "author": "e.bondar",
-  "type": "commonjs",
-  "main": "index.js"
+  "devDependencies": {
+    "typescript": "^6.0.2"
+  }
 }
