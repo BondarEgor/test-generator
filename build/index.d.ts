@@ -1,1 +1,1 @@
-export { some } from './src/some.js';
+export { some } from './src/some';
